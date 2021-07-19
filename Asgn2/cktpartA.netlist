@@ -1,0 +1,7 @@
+.circuit
+V1 1 GND dc 10
+R1 1 2 2e0
+R2 2 GND 3e0
+R3 2 3 5e0
+RL 3 GND 1e0     #Taking RL=1 ohm (can be changed to required value)
+.end
